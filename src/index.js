@@ -1,5 +1,5 @@
-const cat = "cat";
+import { capitalize } from "./functionsToTest";
 
-for (let index = 0; index < 10; index++) {
-  console.log(cat);
-}
+console.log(capitalize("cat"));
+
+
